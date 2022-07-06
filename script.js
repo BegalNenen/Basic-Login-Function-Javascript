@@ -4,10 +4,14 @@ function Login() {
         username = username.toLowerCase();
         var password = document.login.password.value;
         password = password.toLowerCase();
-        if (username == "user1" || username == "user2" && password == "pw-usr1" || password == "pw-usr2") {
+        if (username == "user" && password == "pw-user") {
           alert("Anda berhasil login");
 // Kalo punya page rahasia, bisa gunain window.open
         } else if (done == 0) {
-          alert("Sepertinya username atau password yang kamu masukan salah, silahkan coba lagi.");
+          Swal.fire({
+  icon: 'error',
+  title: 'Oops...',
+  text: 'Sepertinya username atau password yang kamu masukan salah, coba lagi!'
+});
        }
      }
