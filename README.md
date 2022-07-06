@@ -2,4 +2,4 @@
 Sistem login sederhana multi user dengan javascript
 
 # Tips
-Karena ini masih menggunakan javascript, jadi masih bisa _di-inspect element_ untuk dilihat codenya. Gunakan tools _ofbuscator_ untuk mengamankan kode nya.
+Gunakan tools [obfustcator.io](https://obfuscator.io/) agar username dan password tidak tampil saat _di-inspect element_.
